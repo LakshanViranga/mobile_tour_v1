@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    <img src="/assets/icon/logo.png" alt=""/>
+    <ion-card-header>
+      <ion-card-subtitle>Get Started</ion-card-subtitle>
+      <ion-card-title>Welcome to Travel Ceylon</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <ion-button class="ion-align-items-center btn-1" routerLink="/login">Login</ion-button>
+  <p class="ion-padding info-1">
+    If you have not account? click <span (click)="register()">Register</span> Here
+  </p>
+</ion-content>

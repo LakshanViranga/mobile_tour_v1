@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>register</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+     <ion-item>
+       <ion-input type="text" placeholder="User Name" [(ngModel)]="UserName"></ion-input>
+     </ion-item>
+     <ion-item>
+       <ion-input type="text" placeholder="Email" [(ngModel)]="Email"></ion-input>
+     </ion-item>
+    <ion-item>
+       <ion-input type="password" placeholder="Password" [(ngModel)]="Password"></ion-input>
+    </ion-item>
+    <ion-item>
+       <ion-input type="password" placeholder="Confirm Password" [(ngModel)]="CPassword"></ion-input>
+    </ion-item>
+      <ion-button color="primary" (click)="register()" [disabled]="disabledButton">Register</ion-button>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-button>
+    <ion-title>Place to Stay</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom" class="tabs">
+      <ion-tab-button tab="schedule" class="tabs-item" routerLink="/place-list">
+        <ion-icon name="calendar"></ion-icon>
+        <ion-label>Hotel</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="speakers" class="tabs-item" routerLink="/place-list">
+        <ion-icon name="contacts"></ion-icon>
+        <ion-label>Restaurant</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="map" class="tabs-item" routerLink="/place-list">
+        <ion-icon name="map"></ion-icon>
+        <ion-label>Kabana</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="about" class="tabs-item" routerLink="/place-list">
+        <ion-icon name="information-circle"></ion-icon>
+        <ion-label>Guest House</ion-label>
+      </ion-tab-button>
+      <!--      <ion-tab-button tab="schedule" class="tabs-item">-->
+      <!--        <ion-icon name="calendar"></ion-icon>-->
+      <!--        <ion-label>Natural</ion-label>-->
+      <!--      </ion-tab-button>-->
+      <!--      <ion-tab-button tab="speakers" class="tabs-item">-->
+      <!--        <ion-icon name="contacts"></ion-icon>-->
+      <!--        <ion-label>Wild Safari</ion-label>-->
+      <!--      </ion-tab-button>-->
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>
